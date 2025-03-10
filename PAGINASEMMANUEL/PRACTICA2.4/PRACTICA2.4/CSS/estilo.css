@@ -1,0 +1,157 @@
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Contenedores principales */
+header, nav, main, aside, footer {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Título principal */
+header h1 {
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+/* ===== MENÚ DE NAVEGACIÓN ESTÉTICO ===== */
+nav {
+    background-color: #2980B9; /* Color de fondo azul */
+    padding: 10px 0;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul {
+    list-style: none; /* Elimina viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hace que los elementos estén en línea */
+    justify-content: center; /* Centra el menú */
+    gap: 15px; /* Espacio entre elementos */
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Texto en blanco */
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background: #1b6699; /* Cambio de color al pasar el mouse */
+    color: #f1f1f1;
+}
+
+/* ===== ESTILOS PARA EL CONTENIDO PRINCIPAL ===== */
+main {
+    padding: 20px;
+}
+
+/* Estilización de las secciones */
+main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FORMULARIOS ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background: #2980B9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #1b6699;
+}
+
+/* ===== ESTILOS PARA COMENTARIOS ===== */
+.comentario {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.comentario:last-child {
+    border-bottom: none;
+}
+
+/* ===== ESTILOS PARA LA TABLA ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background: #2980B9;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    padding: 15px;
+    background: #ddd;
+    border-radius: 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2980B9;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
